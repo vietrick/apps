@@ -260,7 +260,7 @@ App.prototype.el = function (t, c) {
 
 App.prototype.onBookReady = function (event) {
     this.qs(".book-ads").classList.add("hidden");
-    this.qs(".book-outer").classList.add("grid-1");
+    this.qs(".book-outer").classList.add("book-ready");
 
     this.qs(".sidebar-button").classList.remove("hidden");
     this.qs(".bar button.prev").classList.remove("hidden");
